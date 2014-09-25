@@ -396,7 +396,7 @@ function program18(depth0,data) {
 function program20(depth0,data) {
   
   
-  return "\n          <div class='sandbox_header'>\n            <input class='submit' name='commit' type='button' value='Try it out!' />\n  <input class='submit api_sci_submit' name='commit' type='button' name='run_on_apiscience' value='Run on API Science' />\n              <a href='#' class='response_hider' style='display:none'>Hide Response</a>\n            <span class='response_throbber' style='display:none'></span>\n          </div>\n          ";
+  return "\n          <div class='sandbox_header'>\n            <input class='submit' name='commit' type='button' value='Try it out!' />\n  <input class='submit api_sci_submit' name='commit' type='button' name='run_on_apiscience' value='Monitor on API Science' />\n              <a href='#' class='response_hider' style='display:none'>Hide Response</a>\n            <span class='response_throbber' style='display:none'></span>\n          </div>\n          ";
   }
 
   buffer += "\n  <ul class='operations' >\n    <li class='";
