@@ -1759,7 +1759,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
         opts.responseContentType = $("div select[name=responseContentType]", $(this.el)).val();
         opts.requestContentType = $("div select[name=parameterContentType]", $(this.el)).val();
 
-        if(e.currentTarget.value == "Run on API Science") {
+        if(e.currentTarget.value == "Monitor on API Science") {
           opts.sendToApiScience = true;
         }
 
